@@ -1,15 +1,58 @@
+/* GERAL */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   background-color: #0A0A0A;
   color: white;
   font-family: Arial, sans-serif;
-  text-align: center;
-  margin: 0;
-  padding: 0;
+}
+
+/* NAVEGAÇÃO */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  border-bottom: 1px solid #222222;
+}
+
+.logo-nav {
+  font-size: 22px;
+  font-weight: bold;
+  letter-spacing: 4px;
+  color: white;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 40px;
+}
+
+nav ul li a {
+  color: #AAAAAA;
+  text-decoration: none;
+  font-size: 13px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+
+nav ul li a:hover {
+  color: white;
+}
+
+/* HERO — CENTRO DA PÁGINA */
+.hero {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 100vh;
+  height: calc(100vh - 70px);
+  text-align: center;
 }
 
 h1 {
