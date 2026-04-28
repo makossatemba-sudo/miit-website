@@ -1,0 +1,33 @@
+body {
+  background-color: #0A0A0A;
+  color: white;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+h1 {
+  font-size: 80px;
+  letter-spacing: 10px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.slogan {
+  font-size: 16px;
+  letter-spacing: 6px;
+  color: #AAAAAA;
+  margin-bottom: 8px;
+}
+
+.origem {
+  font-size: 12px;
+  letter-spacing: 3px;
+  color: #555555;
+}
