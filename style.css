@@ -74,3 +74,26 @@ h1 {
   letter-spacing: 3px;
   color: #555555;
 }
+.countdown {
+  display: flex;
+  gap: 40px;
+  margin-top: 50px;
+}
+
+.count-item {
+  text-align: center;
+}
+
+.count-item span {
+  font-size: 36px;
+  font-weight: bold;
+  color: white;
+  display: block;
+}
+
+.count-item p {
+  font-size: 10px;
+  letter-spacing: 4px;
+  color: #555555;
+  margin-top: 8px;
+}
