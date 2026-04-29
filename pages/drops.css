@@ -1,0 +1,111 @@
+.drops-container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 60px 40px;
+  text-align: center;
+}
+
+.drops-label {
+  font-size: 11px;
+  letter-spacing: 6px;
+  color: #555555;
+  margin-bottom: 50px;
+  text-transform: uppercase;
+}
+
+.drops-grid {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.drop-card {
+  background-color: #1A1A1A;
+  width: 380px;
+  height: 480px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 30px;
+  position: relative;
+}
+
+.drop-card.locked {
+  opacity: 0.6;
+}
+
+.drop-status {
+  font-size: 10px;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  align-self: flex-start;
+}
+
+.available {
+  color: #FFFFFF;
+}
+
+.coming {
+  color: #555555;
+}
+
+.drop-info {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.drop-number {
+  font-size: 13px;
+  font-weight: bold;
+  letter-spacing: 4px;
+  color: #FFFFFF;
+}
+
+.drop-name {
+  font-size: 11px;
+  letter-spacing: 3px;
+  color: #AAAAAA;
+}
+
+.drop-quantity {
+  font-size: 10px;
+  letter-spacing: 3px;
+  color: #555555;
+}
+
+.drop-price {
+  font-size: 28px;
+  font-weight: bold;
+  color: #FFFFFF;
+  margin-top: 10px;
+}
+
+.drop-btn {
+  background-color: #FFFFFF;
+  color: #0A0A0A;
+  border: none;
+  padding: 14px 0;
+  font-size: 11px;
+  font-weight: bold;
+  letter-spacing: 4px;
+  cursor: pointer;
+  margin-top: 20px;
+  width: 100%;
+}
+
+.drop-btn:hover {
+  background-color: #AAAAAA;
+}
+
+.locked-btn {
+  background-color: transparent;
+  color: #555555;
+  border: 1px solid #333333;
+}
+
+.locked-btn:hover {
+  background-color: transparent;
+  color: #555555;
+}
