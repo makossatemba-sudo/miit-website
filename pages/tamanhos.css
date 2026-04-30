@@ -1,0 +1,111 @@
+.tamanhos-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 60px 40px;
+  text-align: center;
+}
+
+.tamanhos-label {
+  font-size: 11px;
+  letter-spacing: 6px;
+  color: #555555;
+  margin-bottom: 20px;
+}
+
+.tamanhos-title {
+  font-size: 32px;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 16px;
+}
+
+.tamanhos-desc {
+  font-size: 14px;
+  color: #AAAAAA;
+  margin-bottom: 50px;
+  line-height: 1.8;
+}
+
+/* TABELA */
+.tabela {
+  width: 100%;
+  margin-bottom: 40px;
+}
+
+.tabela-header {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  background-color: #1A1A1A;
+  padding: 16px 20px;
+  font-size: 10px;
+  letter-spacing: 3px;
+  color: #555555;
+  text-transform: uppercase;
+}
+
+.tabela-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  padding: 18px 20px;
+  font-size: 15px;
+  color: #AAAAAA;
+  border-bottom: 1px solid #1A1A1A;
+}
+
+.tabela-row:hover {
+  background-color: #111111;
+}
+
+.size-tag {
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.tamanhos-nota {
+  font-size: 12px;
+  color: #555555;
+  letter-spacing: 1px;
+  margin-bottom: 60px;
+  line-height: 1.8;
+}
+
+/* COMO MEDIR */
+.como-medir {
+  text-align: left;
+  border-top: 1px solid #1A1A1A;
+  padding-top: 40px;
+}
+
+.como-label {
+  font-size: 11px;
+  letter-spacing: 6px;
+  color: #555555;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.como-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 30px;
+}
+
+.como-item {
+  background-color: #1A1A1A;
+  padding: 24px;
+}
+
+.como-titulo {
+  font-size: 11px;
+  letter-spacing: 3px;
+  color: white;
+  font-weight: bold;
+  margin-bottom: 12px;
+}
+
+.como-desc {
+  font-size: 13px;
+  color: #AAAAAA;
+  line-height: 1.8;
+}

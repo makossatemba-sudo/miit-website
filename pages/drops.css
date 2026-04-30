@@ -109,3 +109,9 @@
   background-color: transparent;
   color: #555555;
 }
+
+.drop-btn {
+  text-decoration: none;
+  display: block;
+  text-align: center;
+}
