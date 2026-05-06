@@ -1,0 +1,77 @@
+.contacto-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 60px 40px;
+  text-align: center;
+}
+
+.contacto-label {
+  font-size: 11px;
+  letter-spacing: 6px;
+  color: #555555;
+  margin-bottom: 20px;
+}
+
+.contacto-title {
+  font-size: 36px;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 16px;
+}
+
+.contacto-desc {
+  font-size: 15px;
+  color: #AAAAAA;
+  line-height: 1.9;
+  margin-bottom: 60px;
+}
+
+/* GRID */
+.contacto-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+  margin-bottom: 80px;
+}
+
+.contacto-card {
+  background-color: #1A1A1A;
+  padding: 36px 24px;
+  text-decoration: none;
+  display: block;
+  transition: background-color 0.3s;
+}
+
+.contacto-card:hover {
+  background-color: #222222;
+}
+
+.contacto-tipo {
+  font-size: 10px;
+  letter-spacing: 4px;
+  color: #555555;
+  margin-bottom: 16px;
+}
+
+.contacto-info {
+  font-size: 15px;
+  color: #FFFFFF;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.contacto-action {
+  font-size: 12px;
+  color: #AAAAAA;
+  letter-spacing: 2px;
+}
+
+.contacto-card:hover .contacto-action {
+  color: white;
+}
+
+.contacto-origin {
+  font-size: 11px;
+  letter-spacing: 5px;
+  color: #333333;
+}
