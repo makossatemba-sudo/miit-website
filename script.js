@@ -1,8 +1,23 @@
-// Data do DROP 01 — muda para a data real quando souberes
+// ── ANIMAÇÃO DO LOGO ──────────────────────────────
+const logoText = "M][T";
+const logoEl   = document.getElementById("logo-anim");
+let i = 0;
+
+function escreverLogo() {
+  if (i < logoText.length) {
+    logoEl.textContent += logoText[i];
+    i++;
+    setTimeout(escreverLogo, 180);
+  }
+}
+
+escreverLogo();
+
+// ── COUNTDOWN DROP 01 ─────────────────────────────
 const dropDate = new Date("2026-06-01T00:00:00");
 
 function updateCountdown() {
-  const now = new Date();
+  const now  = new Date();
   const diff = dropDate - now;
 
   const days    = Math.floor(diff / (1000 * 60 * 60 * 24));
