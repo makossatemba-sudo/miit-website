@@ -97,3 +97,43 @@ h1 {
   color: #555555;
   margin-top: 8px;
 }
+
+/* ── MOBILE ───────────────────────────── */
+@media (max-width: 768px) {
+
+  nav {
+    flex-direction: column;
+    padding: 16px 20px;
+    gap: 12px;
+  }
+
+  nav ul {
+    gap: 16px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  nav ul li a {
+    font-size: 11px;
+    letter-spacing: 2px;
+  }
+
+  h1 {
+    font-size: 52px;
+    letter-spacing: 6px;
+  }
+
+  .slogan {
+    font-size: 13px;
+    letter-spacing: 4px;
+  }
+
+  .countdown {
+    gap: 20px;
+  }
+
+  .count-item span {
+    font-size: 28px;
+  }
+
+}

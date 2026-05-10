@@ -123,3 +123,23 @@
   object-position: top;
   display: block;
 }
+
+@media (max-width: 768px) {
+
+ .drops-grid {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+  .drop-card {
+    width: 90% !important;
+    height: auto !important;
+  }
+
+  .drop-img {
+    height: 260px !important;
+  }
+
+}
